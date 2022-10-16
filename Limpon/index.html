@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- МЕТА -->
+    <title>Limpon</title>
+    <meta name="description" content="описание не длиннее 155 символов">
+    <meta name="keywords" content="мета-теги, шаблон, html, css">
+    
+    <!-- Контролирует поведение поисковых систем при индексации страницы --> 
+    <meta name="robots" content="index,follow,noodp"><!-- Все поисковые системы -->
+    <meta name="googlebot" content="index,follow"><!-- Указание отдельно для Google -->
+    
+    <!-- Позволяет указать Google не показывать в поисковой выдаче поле для поиска по сайту -->
+    <meta name="google" content="nositelinkssearchbox"><!-- Позволяет указать Google не предлагать перевести эту страницу -->
+    <meta name="google" content="notranslate"><!-- Подтверждает авторство страницы в Google Search Console -->
+    <meta name="google-site-verification" content="verification_token"> <!-- Тег указания ПО, которое сгенерировало эту страницу -->
+    <meta name="generator" content="program"><!-- Короткое описание тематики вашего сайта -->
+    <meta name="subject" content="тематика вашего сайта"><!-- open graph Facebook-->
+    <meta content="Заголовок">
+    <meta content="website">
+    
+    <!-- если сайт многоязычный -->
+    <!-- <meta property="og:locale" content="ru_RU"> -->
+    <meta content="http://localhost.my">
+    
+    <!-- не меньше 600х315, не более 8Мб -->
+    <meta content="http://localhost.my/img/og_cover.jpg">
+    <meta content="описание не длиннее 155 символов">
+    <meta content="Facebook ID">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ник_компании_в_твиттере">
+    <meta name="twitter:title" content="Заголовок">
+    <meta name="twitter:description" content="описание не длиннее 155 символов">
+    <meta name="twitter:creator" content="@ник_в_твиттере">
+    
+    <!-- картинка не меньше 280х150, не более 1Мб -->
+    <meta name="twitter:image" content="http://localhost.my/img/tw_cover.jpg">
+    
+    <!-- G+ / Pinterest -->
+    <meta content="Заголовок">
+    <meta content="описание не длиннее 155 символов">
+    <meta content="http://localhost.my/img/g_cover.jpg">
+    
+    <!-- Google authorship -->
+    <link rel="author" href="https://plus.google.com/[Google+_Profile]/posts" data-mce-href="https://plus.google.com/[Google+_Profile]/posts">
+    <link rel="publisher" href="https://plus.google.com/[Google+_Page_Profile]" data-mce-href="https://plus.google.com/[Google+_Page_Profile]">
+    
+    <!-- Фавиконы и иконки сайта --> 
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" data-mce-href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" data-mce-href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" data-mce-href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" data-mce-href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" data-mce-href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" data-mce-href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" data-mce-href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" data-mce-href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png" data-mce-href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" data-mce-href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192" data-mce-href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" data-mce-href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" data-mce-href="/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4">
+    
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4">
+    
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Яндекс.Браузер -->
+    <meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade">
+
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <div class="logo">
+                <img src="img/logo main.png" alt="">
+                <p>Limpon</p>
+            </div>
+            <ul class="nav">
+                <li><a href="a">Home</a></li>
+                <li><a href="a">Features</a></li>
+                <li><a href="a">Video</a></li>
+                <li><a href="a">Screens</a></li>
+                <li><a href="a">Pricing</a></li>
+                <li><a href="a">team</a></li>
+                <div class="btn-free"><li><a href="a">Free trail</a></li></div>
+            </ul>
+            <h1>Best Software Landingpage</h1>
+            <div class="btn">
+                <button class="gst">get started now</button>
+                <button class="lmr">learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- sponsors -->
+    <div class="sponsors" style="background-color: blue">
+        <div>
+            <ul>
+                <li><img src="img/logo 1.png" alt="Token"></li>
+                <li><img src="img/logo 2.png" alt="Token"></li>
+                <li><img src="img/logo 3.png" alt="Token"></li>
+                <li><img src="img/logo 4.png" alt="Token"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- features -->
+    <div>
+        <div class = "features">
+            <!-- 1 блок - заголовок -->
+            <h2 class="bft"><span class="ftr">Features</span>Best Features Ever Seen</h2>
+
+            <!-- 2 блок - карточка 1 -->
+            <div>
+                <div><img src="img/icon 1.png" alt="" ></div>
+                <h3>Well Documented</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+            
+            <!-- 3 блок - карточка 2 -->
+            <div>
+                <div><img src="img/icon 2.png" alt=""></div>
+                <h3>Highly Customizeable</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+
+            <!-- 4 блок - карточка 3 -->
+            <div>
+                <div><img src="img/icon 3.png" alt=""></div>
+                <h3>Mobile Friendly Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+
+            <!-- 5 блок - карточка 4 -->
+            <div>
+                <div><img src="img/icon 4.png" alt=""></div>
+                <h3>Responsive Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+
+            <!-- 6 блок - карточка 5 -->
+            <div>
+                <div><img src="img/icon 5.png" alt=""></div>
+                <h3>24/7 Online Support</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+
+            <!-- 7 блок - карточка 6 -->
+            <div>
+                <div><img src="img/icon 6.png" alt=""></div>
+                <h3>Easy To Edit</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <!-- 8 блок - текстовый -->
+        <div class="txt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="founder"><span class="rosalina">Rosalina Pong</span> - Founder, uithemes</p>
+        </div>
+    </div>
+
+    <!-- subscribe -->
+    <div class="subscribe" style="background-color:blue">
+        <div>
+            <div>
+                <h2><span>Subscribe</span>Signup For A Trail</h2>
+                <p>Create your free account now & get 30 days free trial No credit card required</p>
+                <input type="email" placeholder="Enter your email adress">
+                <button type="submit">Subscribe</button>
+            </div>
+            <img src="img/Robot.png" alt="Robot">
+        </div>
+    </div>
+
+    <!-- features Software -->
+    <div class="featuresSoftware">
+        <div>
+            <div>
+                <div>
+                    <img src="img/wrench.png" alt="icon">
+                </div>
+                <h2>Grab Your  Software With Amazing  Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <dl>
+                    <dt>01. Clean design</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                        irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+                    <dt>02. Easy to customize</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                        irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+                </dl>
+            </div>
+            <img src="img/bg 2.png" alt="bg_2">
+        </div>
+
+
+    </div>
+
+    <!-- counter -->
+    <div class="counter" style="background-color:aquamarine">
+        <div>
+            <h2><span>Fun Facts</span>Some Fun Facts About Dashboard</h2>
+            <ul>
+                <li><span>53K</span>Layots</li>
+                <li><span>10K</span>Projects</li>
+                <li><span>12K</span>Cup Coffe</li>
+                <li><span>120</span>Awards</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- video -->
+    <div class="video">
+        <div>
+            <div>
+                <h2>Meet With Future Landingpage</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                    in voluptate velit esse cillum.</p>
+                <p>Available Now</p>
+                <ul>
+                    <li><a href="" target="_blank">Google</a></li>
+                    <li><a href="" target="_blank">Apple</a></li>
+                </ul>
+            </div>
+            <img src="img/video.png" alt="play">
+        </div>
+    </div>
+
+    <!-- landingPage -->
+    <div class="landingPage">
+        <div>
+            <div>
+                <div>
+                    <img src="img/wrench.png" alt="">
+                </div>
+                <h2>Limpon Is Suitable For Anytype LandingPage</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                    in voluptate velit esse cillum.</p>
+                <button>get started now</button>
+            </div>
+            <img src="img/graph 1.png" alt="">
+        </div>
+    </div>
+
+<!-- easyControl -->
+<div class="easyControl">
+    <div>
+        <div>
+            <div>
+                <img src="img/wrench.png" alt="">
+            </div>
+            <h2>Easy To Etid & Very Easily Control</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum.</p>
+            <button>learn more</button>
+        </div>
+        <img src="img/graph 2.png" alt="">
+    </div>
+</div>
+
+<!-- screenshot -->
+<div class="screenshot">
+    <div>
+        <h2><span>screen preview</span>Screenshot With Details</h2>
+        <div><img src="img/graph 3.png" alt=""></div>
+    </div>
+</div>
+
+<!-- clients-->
+<div class="page-clients">
+    <div>
+        <h2><span>testimonials</span>Our Happy Clients</h2>
+        <div class="box-clients">
+            <div>
+                <p>It is a long established fact that a read
+                    her will be distracted by the readable
+                    content of a page when looking.</p>
+                <img src="img/avatar1.png" alt="">
+                <p class="name">Rolin B. Mirano</p>
+                <p class="position">ceo, uihub</p>
+            </div>
+            <div>
+                <p>It is a long established fact that a read
+                    her will be distracted by the readable
+                    content of a page when looking.</p>
+                <img src="img/avatar1.png" alt="">
+                <p class="name">Rolin B. Mirano</p>
+                <p class="position">ceo, uihub</p>
+            </div>
+            <div>
+                <p>It is a long established fact that a read
+                    her will be distracted by the readable
+                    content of a page when looking.</p>
+                <img src="img/avatar1.png" alt="">
+                <p class="name">Rolin B. Mirano</p>
+                <p class="position">ceo, uihub</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- pricing-->
+<div class="page-plan">
+    <div>
+        <h2><span>our plans</span>Pricing Plans</h2>
+        <div class="box-price">
+            <div class="box-price-item">
+                <h3><span></span>Free<span></span></h3>
+                <p><strong>starter</strong></p>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24/7 Online Support</li>
+                </ul>
+                <a href="">Choose plan</a>
+            </div>
+            <div class="box-price-item active">
+                <h3><span>$</span>90<span>/mo</span></h3>
+                <p><strong>starter</strong></p>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24/7 Online Support</li>
+                </ul>
+                <a href="">Choose plan</a>
+            </div>
+            <div class="box-price-item">
+                <h3><span>$</span>350<span>/mo</span></h3>
+                <p><strong>starter</strong></p>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24/7 Online Support</li>
+                </ul>
+                <a href="">Choose plan</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- team-->
+<div class="page-team">
+    <div>
+        <h2><span>angels</span>Our Team</h2>
+        <div class="box-team">
+            <div class="box-team-item">
+                <img src="img/avatar2.png" alt="">
+                <p class="position">founder</p>
+                <p class="name">Ricardo T. Obrien</p>
+            </div>
+            <div class="box-team-item">
+                <img src="img/avatar3.png" alt="">
+                <p class="position">ceo</p>
+                <p class="name">Alberto Del Rio</p>
+            </div>
+            <div class="box-team-item">
+                <img src="img/avatar4.png" alt="">
+                <p class="position">designer</p>
+                <p class="name">Thomas Alva Adison</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- form-->
+<div class="page-form">
+    <div>
+        <h2>Start Your Free Trail
+            No Need Credit Card.</h2>
+        <form action="">
+            <input type="text" placeholder="Enter your name here">
+            <input type="email" placeholder="Enter your email here">
+            <textarea name="textMessage" placeholder="Enter your message here"></textarea>
+            <button type="submit" class="btn-primary"><span></span>Submit now</button>
+        </form>
+        <img src="img/graph 4.png" alt="">
+    </div>
+</div>
+
+<!-- footer-->
+<div class="footer">
+    <div>
+        <p>Made With Love & Copyright By - <a href="">limpon</a></p>
+        <ul class="social">
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+            <li><a href="" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
