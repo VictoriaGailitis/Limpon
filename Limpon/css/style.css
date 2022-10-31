@@ -25,32 +25,99 @@ a {
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-.nav a {
-    color: #6e7ea9;
-}
 
-.btn-free a {
+.btn-primary {
     color: #ffffff;
-    font-weight: 400;
     background-color: #1085e4;
-}
-
-.btn button {
-    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    border: 1px solid #1085e4
 }
 
-.gst {
-    color: #ffffff;
-    background-color: #1085e4
+.btn-primary:hover {
+    background-color: #fff;
+    color: #1085e4;
 }
 
-.lmr {
-    color: #7e8bae;
+.btn-secondary {
     background-color: #cbdbe8;
+    color: #7e8bae;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 20px 30px;
+    border: 1px solid #cbdbe8;
+}
+
+.btn-secondary:hover {
+    border: 1px solid #cbdbe8;
+    background-color: #fff;
+}
+
+.btn-free {
+    font-size: 11px;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    padding: 21px 58px;
+}
+
+.btn-started {
+    padding: 22px 42px;
+    letter-spacing: 2px;
+}
+
+.btn-learn-secondary {
+    padding: 21px 40px;
+    letter-spacing: 2px;
+}
+
+.btn button + button {
+    margin-left: 15px;
+}
+
+.btn-subscribe {
+    letter-spacing: 2px;
+    padding: 18px 50px;
+}
+
+.btn-learn-primary {
+    letter-spacing: 2px;
+    padding: 21px 64px;
+}
+
+.btn-plan-primary {
+    letter-spacing: 2px;
+    padding: 21px 65px;
+}
+
+.btn-plan-secondary {
+    color: #8085b1;
+    background-color: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 21px 64px;
+    border-radius: 30px;
+}
+
+.btn-plan-secondary:hover {
+    background-color: #dce1e5;
+}
+
+.btn-submit {
+    letter-spacing: 2px;
+    padding: 21px 65px;
 }
 
 .bft {
@@ -122,11 +189,4 @@ a {
     font-size: 14px;
     font-weight: 400px;
     color: #b1c3ee;
-}
-
-.subscribe button {
-    font-size: 14px;
-    font-weight: 700px;
-    color: #ffffff;
-    background-color: #1085e4;
 }
