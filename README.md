@@ -1,1 +1,2 @@
-Ссылка на просмотр страницы: https://victoriagailitis.github.io/Limpon/Limpon/
+# Limpon
+Верстка макета Limpon. Является проектом по дисциплине "Frontend разработка" за второй год обучения
